@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Seats booking</title>
+   <link rel="icon" href="tiger.png">
+   <meta charset="UTF-8"/>
+   <link rel="stylesheet" href="seats.css">
+   <script src="seats.js"></script>
+</head>
+<body>
+<div class = "header1">
+ <h1 id="hh1">Gold (U/A)</h1>
+ <span id="hh6">K3K Screens, Chimakurthy, Andhra pradesh</span>
+</div>
+<div class="header2">
+<div id="hh4">
+<button class="btn">11:30AM<br><span class="2D">2D</span></button>
+<button class="btn">02:45PM<br><span class="2D">2D</span></button>
+<button class="btn">06:30PM<br><span class="2D">2D</span></button>
+<button class="btn">10:00PM<br><span class="2D">2D</span></button>
+</div>
+<div id="hh3">
+ <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+	</div>
+</div>
+<div id="body1">
+<div class="movie-container">
+      <label for="movie">Pick a movie:</label>
+      <select name="movie" id="movie">
+        <option value="10">Kanthara 1 &#8377;350</option>
+        <option value="12">Coolie &#8377;350</option>
+        <option value="8">Rajasaab &#8377;250</option>
+        <option value="9">War 2 &#8377;450</option>
+      </select>
+    </div>
+    <div class="container">
+	<div id="gold">GOLD: &#8377;150</div>
+      <div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat">12</div>
+        <div class="seat">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">A-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">B-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">C-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat ">3</div>
+        <div class="seat occupied">4</div>
+        <div class="seat occupied">5</div>
+        <div class="seat occupied">6</div>
+        <div class="seat occupied">7</div>
+        <div class="seat ">8</div>
+		<div class="seat occupied">9</div>
+        <div class="seat occupied">10</div>
+        <div class="seat occupied">11</div>
+        <div class="seat occupied">12</div>
+        <div class="seat occupied">13</div>
+        <div class="seat ">14</div>
+        <div class="seat occupied">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat occupied">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">D-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat ">3</div>
+        <div class="seat occupied">4</div>
+        <div class="seat">5</div>
+        <div class="seat ">6</div>
+        <div class="seat occupied">7</div>
+        <div class="seat ">8</div>
+		<div class="seat">9</div>
+        <div class="seat ">10</div>
+        <div class="seat occupied">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat ">14</div>
+        <div class="seat occupied">15</div>
+        <div class="seat">16</div>
+        <div class="seat occupied">17</div>
+        <div class="seat occupied">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">E-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat ">3</div>
+        <div class="seat ">4</div>
+        <div class="seat occupied">5</div>
+        <div class="seat occupied">6</div>
+        <div class="seat occupied">7</div>
+        <div class="seat">8</div>
+		<div class="seat ">9</div>
+        <div class="seat">10</div>
+        <div class="seat occupied">11</div>
+        <div class="seat">12</div>
+        <div class="seat ">13</div>
+        <div class="seat ">14</div>
+        <div class="seat occupied">15</div>
+        <div class="seat occupied">16</div>
+        <div class="seat">17</div>
+        <div class="seat occupied">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">F-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat ">3</div>
+        <div class="seat occupied">4</div>
+        <div class="seat ">5</div>
+        <div class="seat ">6</div>
+        <div class="seat occupied">7</div>
+        <div class="seat">8</div>
+		<div class="seat ">9</div>
+        <div class="seat">10</div>
+        <div class="seat occupied">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat ">14</div>
+        <div class="seat occupied">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat occupied">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">G-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">H-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">I-</span>
+		</div>
+		<div id="gold">&nbsp;</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">J-</span>
+		</div>
+		<div id="gold">SILVER: &#8377;100</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">K-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">L-</span>
+		</div>
+		<div class="row">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+		<div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat ">12</div>
+        <div class="seat ">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <div class="seat">19</div>
+		<span class="row-label">M-</span>
+		</div>
+<br><br>	
+<div class="footer">	
+      <div class="screen"><span>SCREEN THIS WAY</span></div>
+	  </div>
+      </div>
+	  
+    </div>
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of &#8377;<span
+        id="total"
+        >0</span>
+    </p>
+</body>
+</html>

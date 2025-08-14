@@ -119,6 +119,10 @@ input {
   width: 100%;
   font-family: inherit;
 }
+input::placeholder{
+  color:#5c0488;
+  opacity:1;
+}
 
 .container {
   background-color: #65088d;
